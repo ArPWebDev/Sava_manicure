@@ -1,0 +1,32 @@
+/* .carousel-item {
+height: 600px;
+};
+
+.carousel-item img {
+max-height: 600px;
+}; */
+
+.carousel-control-prev-icon {
+    background-image: url(/src/image/chevron-left.svg);
+    width: 3em;
+    height: 3em;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/src/image/chevron-right.svg);
+    width: 3em;
+    height: 3em;
+}
+
+.heading-col{
+    min-height: 60px;
+}
+
+.hover-opp:hover{
+    opacity: 0.6;
+}
+
+.icon {
+    width: 3em;
+    height: 3em; 
+}
