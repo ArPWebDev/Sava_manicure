@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body style="font-family: 'Helvetica Neue', Arial, sans-serif;">
-    <nav class=" container-xxl navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">
         <div class="container">
             <a href="#" class="navbar-brand">Savamanic</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
@@ -20,7 +20,7 @@
                         <a href="#link-1" class="nav-link">Обо мне</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#link-2" class="nav-link">Галлерея работ</a>
+                        <a href="#link-2" class="nav-link">Галерея работ</a>
                     </li>
                     <li class="nav-item">
                         <a href="#link-3" class="nav-link">Мои преимущества</a>
@@ -35,23 +35,22 @@
             </div>
         </div>
     </nav>
-    <main class="container-xxl">
-        <div class="my-5">
+    <main class="">
+        <div class=" container-xxl my-5">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <img  class="w-100 rounded-3 border border-1 border-dark" src="src/image/val.jpg" alt="foto">
                 </div>
                 <div class="col-md-8 col-sm-12 text-cetnter" id="link-1">
-                    <h2 class="my-3"><strong>Обо мне</strong></h2>
+                    <h3 class="my-3"><strong>Обо мне</strong></h3>
                     <p class="h4">Меня зовут Валентина, мне 19 лет, но несмотря на весьма юнный возраст, я являюсь сертифицированным мастером маникюра с 3-х летним опытом. Вы можете ознакомиться с моими работами ниже.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="bg-dark rounded-3 text-center mt-5" id="link-2">
-            <p class="h2 text-light py-5"><strong>Галлерея работ &rarr;          
-                <a href="#multiCollapse" class="text-decoration-none text-light hover-opp" data-toggle="collapse" aria-controls="multiCollapse" role="button" aria-expanded="false">cмотреть</a>
-            </strong></p>
+        <div class="container-fluid bg-dark my-5">
+        <div class=" container-xxl text-center mt-5" id="link-2">
+            <a href="#multiCollapse" type="button" class="btn btn-outline-light btn-lg my-3" aria-expanded="false" data-toggle="collapse" aria-controls="multiCollapse" role="button">Мои работы</a>
            <div class="container collapse multi-collapse show" id="multiCollapse">
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
                 <div class="my-3">
@@ -177,6 +176,8 @@
                 </div>
                 </div> 
         </div>
+        </div>
+            <div class="container-xxl">
             <h2 class="text-center my-5" id="link-3"><strong>Почему Вам стоит воспользоваться моими услугами?</strong></h2>
                 <div class="row gy-5">
                     <div class="col-md-4 col-sm-6 text-center"> 
@@ -187,7 +188,7 @@
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae sint voluptas porro ratione possimus?</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 text-center">
-                        <p class="h3 heading-col"><strong>Безопастность</strong></p>
+                        <p class="h3 heading-col"><strong>Безопасность</strong></p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="currentColor" class="bi bi-shield my-3 my-md-2" viewBox="0 0 16 16">
                             <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
                           </svg>
@@ -224,10 +225,9 @@
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae sint voluptas porro ratione possimus?</h4>
                     </div>              
                 </div>
-                <div class="bg-dark rounded-3">
-                    <h2 class="text-center text-light py-4 my-5"><strong>Дополнительные работы</strong></h2>    
-                    <div class="carousel slide container-xxl px-0 pb-5" id="carouselControls" data-ride="carousel"> 
-                            <div class="carousel-inner rounded-3">
+            </div>   
+                    <div class="carousel slide container-fluid px-0 py-2 bg-dark my-5" id="carouselControls" data-ride="carousel"> 
+                            <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="src/image/sl-1.jpg" alt="nature pic" class="d-block w-100">
                                 </div>
@@ -248,35 +248,39 @@
                                 <span class="carousel-control-next-icon"></span>
                             </a>
                     </div>
-                </div> 
-                    <div class="my-5" id="link-4">
+                    <div class="container-xxl my-5" id="link-4">
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
-                                <h2 class="my-3 heading-col text-center"><strong>Рабочее место</strong></h2>
+                                <h3 class="my-3 heading-col text-center"><strong>Рабочее место</strong></h2>
                                 <img  class="w-100 rounded-3 border border-1 border-dark" src="src/image/rab-m.jpg" alt="foto">
+                                <p class="mt-4 h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae sint voluptas porro ratione possimus?</p>
                             </div>
                             <div class="col-md-4 col-sm-12">
-                                <h2 class="my-3 heading-col text-center"><strong>Стерилизатор</strong></h2>
+                                <h3 class="my-3 heading-col text-center"><strong>Стерилизатор</strong></h2>
                                 <img  class="w-100 rounded-3 border border-1 border-dark" src="src/image/rab-m.jpg" alt="foto">
+                                <p class="mt-4 h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae sint voluptas porro ratione possimus?</p>
                             </div>
                             <div class="col-md-4 col-sm-12">
-                                <h2 class="my-3 heading-col text-center"><strong>Сертификаты</strong></h2>
+                                <h3 class="my-3 heading-col text-center"><strong>Сертификаты</strong></h2>
                                 <img  class="w-100 rounded-3 border border-1 border-dark" src="src/image/rab-m.jpg" alt="foto">
+                                <p class="mt-4 h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae sint voluptas porro ratione possimus?</p>
                             </div>
                         </div>
                     </div>
-        <div class="bg-dark rounded-3 text-center" id="link-5">
-            <h2 class="text-center text-light pt-4"><strong>Контакты</strong></h2>
-            <div class="row py-5">
+        <div class="container-fluid bg-dark text-center mt-5" id="link-5">
+            <div class="container-xxl">
+            <h3 class="text-center text-light pt-4"><strong>Если вас заинтересовали мои работы, то вы можете связаться со мной через: </strong></h3>
+            <div class="row py-2">
                 <div class="col-md-4 col-sm-12">
-                    <a class="text-decoration-none text-light hover-opp h4" href="https://www.instagram.com/sava_manicure/?igshid=4z4z4v3y10of" target="blank"><img alt="inst_logo" class="icon mr-3 my-3" src="src/image/Instagram.png">Instagram&ensp; &ensp;</a>
+                    <a class="text-decoration-none text-light hover-opp h5" href="https://www.instagram.com/sava_manicure/?igshid=4z4z4v3y10of" target="blank"><img alt="inst_logo" class="icon mr-3 my-3" src="src/image/inst-5.png">Instagram&ensp; &ensp;</a>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <a class="text-decoration-none text-light hover-opp h4" href="https://vk.com/sava_manic" target="blank"><img alt="vk_logo" class="icon mr-3 my-3" src="src/image/VK.png">Вконтакте&ensp; &ensp;</a>
+                    <a class="text-decoration-none text-light hover-opp h5" href="https://vk.com/sava_manic" target="blank"><img alt="vk_logo" class="icon mr-3 my-3" src="src/image/vk-2.png">Вконтакте&ensp; &ensp;</a>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                <p class="text-light h4" href="" target="blank"><img alt="whatsapp_logo" class="icon mr-3 my-3" src="src/image/WhatsApp.png">89150775313</p>
+                <p class="text-light h5" href="" target="blank"><img alt="whatsapp_logo" class="icon mr-3 my-3" src="src/image/tl-2.png">89150775313</p>
                 </div>
+            </div>
             </div> 
         </div>                     
     </main>

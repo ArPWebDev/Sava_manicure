@@ -30,3 +30,8 @@ max-height: 600px;
     width: 3em;
     height: 3em; 
 }
+
+.bg-light {
+    background-color: #f8fbff !important;
+  }
+
