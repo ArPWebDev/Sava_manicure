@@ -35,3 +35,8 @@ max-height: 600px;
     background-color: #f8fbff !important;
   }
 
+  .modal-fix {
+    top: 8%;
+} 
+
+
