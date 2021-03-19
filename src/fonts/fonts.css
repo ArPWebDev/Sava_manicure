@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: local('Dancing Script OT'), local('DancingScriptOT'), url('dancingscriptot.woff2') format('woff2'), url('dancingscriptot.woff') format('woff'), url('dancingscriptot.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: local('Cormorant Unicase Light'), local('Cormorant-Unicase-Light'),
+        url('CormorantUnicase-Light.woff2') format('woff2'),
+        url('CormorantUnicase-Light.woff') format('woff'),
+        url('CormorantUnicase-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: local('Cormorant Unicase Bold'), local('Cormorant-Unicase-Bold'),
+        url('CormorantUnicase-Bold.woff2') format('woff2'),
+        url('CormorantUnicase-Bold.woff') format('woff'),
+        url('CormorantUnicase-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Cormorant Unicase';
+    src: local('Cormorant Unicase Medium'), local('Cormorant-Unicase-Medium'),
+        url('CormorantUnicase-Medium.woff2') format('woff2'),
+        url('CormorantUnicase-Medium.woff') format('woff'),
+        url('CormorantUnicase-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
