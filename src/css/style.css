@@ -35,7 +35,13 @@ body {
 
   .modal-fix {
     top: 8%;
-} 
+}
+
+@media screen and (max-width: 720px) {
+	.modal-fix {
+    top: 15%;
+  }
+}
 
 .nav-font {
     font-family: 'Dancing Script';
@@ -48,7 +54,7 @@ body {
 }
 
 .btn-cost {
-  width: 400px;
+  width: 300px;
 }
 
 .padding {
@@ -62,4 +68,3 @@ body {
     padding-bottom: 30px;
   }
 }
-
