@@ -7,68 +7,6 @@
 }
 
 @font-face {
-    font-family: 'Cormorant Unicase';
-    src: local('Cormorant Unicase Light'), local('Cormorant-Unicase-Light'),
-        url('CormorantUnicase-Light.woff2') format('woff2'),
-        url('CormorantUnicase-Light.woff') format('woff'),
-        url('CormorantUnicase-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Cormorant Unicase';
-    src: local('Cormorant Unicase Bold'), local('Cormorant-Unicase-Bold'),
-        url('CormorantUnicase-Bold.woff2') format('woff2'),
-        url('CormorantUnicase-Bold.woff') format('woff'),
-        url('CormorantUnicase-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Cormorant Unicase';
-    src: local('Cormorant Unicase Medium'), local('Cormorant-Unicase-Medium'),
-        url('CormorantUnicase-Medium.woff2') format('woff2'),
-        url('CormorantUnicase-Medium.woff') format('woff'),
-        url('CormorantUnicase-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url(Inter-Regular.woff2) format("woff2"), url(Inter-Regular.woff) format("woff");
-}
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 900;
-	font-display: swap;
-	src: url(Inter-Black.woff2) format("woff2"), url(Inter-Black.woff) format("woff");
-}
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src: url(Inter-Bold.woff2) format("woff2"), url(Inter-Bold.woff) format("woff");
-}
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-	src: url(Inter-Medium.woff2) format("woff2"), url(Inter-Regular.woff) format("woff");
-}
-
-@font-face {
     font-family: 'Lora';
     src: url('Lora-Bold.eot');
     src: local('Lora Bold'), local('Lora-Bold'),

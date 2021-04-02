@@ -4,14 +4,6 @@ body {
   font-family: 'Lora', Arial, sans-serif;
 }
 
-/* .carousel-control-prev-icon {
-    background-image: url(/src/image/chevron-left.svg);
-}
-
-.carousel-control-next-icon {
-    background-image: url(/src/image/chevron-right.svg);
-} */
-
 .heading-col{
     min-height: 65px;
 }
@@ -47,10 +39,6 @@ body {
 
 .text-justify {
   text-align: justify;
-}
-
-.icon-mid {
-  justify-content: space-around;
 }
 
 .btn-cost {
