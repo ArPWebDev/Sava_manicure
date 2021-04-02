@@ -1,7 +1,7 @@
 @import url(../fonts/fonts.css);
 
 body {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Lora', Arial, sans-serif;
 }
 
 /* .carousel-control-prev-icon {
@@ -47,6 +47,10 @@ body {
 
 .text-justify {
   text-align: justify;
+}
+
+.icon-mid {
+  justify-content: space-around;
 }
 
 .btn-cost {
